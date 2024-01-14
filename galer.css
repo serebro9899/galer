@@ -1,0 +1,45 @@
+ .gal-tittle {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    
+
+}
+.center{
+    text-align: center;
+    color: white;
+    font-family: Courier, monospace;
+    margin-right: 30px;
+}
+.text-right{
+    text-align: right;
+    color: white;
+    font-family: Courier, monospace;
+}
+
+.text-between{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-family: Courier, monospace;
+    margin-left: 24px;
+}
+.white-text {
+    color: white;
+    font-family: Courier, monospace;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+.photo :hover img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
